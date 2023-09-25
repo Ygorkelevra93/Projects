@@ -1,34 +1,36 @@
 # ScoreTable - SQL 
 
-## Escopo do projeto:
-O sistema que a empresa utiliza para análise de crédito e aprovação de pedidos possui uma tela de diagnóstico para cada cliente com informações e pontuações.
-Ao todo mais de pontos de informação relevantes para o processo.
-O solicitante gostaria que fosse extraído do banco um relatório que trouxesse a informação no formato de tabela, já que o sistema original não tinha esse relatório em sua versão standard.
+##  Project scope:
+The system that the company uses for credit analysis and order approval has a diagnostic screen for each customer with information and scores.
+In total, more points of information relevant to the process.
+The requester would like a report to be extracted from the bank that provided the information in table format, as the original system did not have this report in its standard version.
 
-## Ferramentas utilizadas: 
+## Tools used: 
 ### SQL Server + QLIKSENSE
 
 
-### Tela de diagnóstico com as informações solicitadas em formato de tabela:  (+3000 clientes)
+### Diagnostic screen with the requested information in table format: (+3000 customers)
 
 ![image](https://github.com/Ygorkelevra93/Projects/assets/121832957/e1da57f6-813c-4e95-a1d0-cf294f121294)
 
 
-O ponto de dificuldade aqui foi, que como a política da empresa é complexa, muitos dos parâmetros como políticas, classificações, e as próprias métricas foram adicionadas
-sob demanda às tabelas do sistema terceiro, então foram feitos os estudos e validações sobre o relacionamento. 
-E quando precisou extrair a informação das pontuações de cada métrica e essa informação se repetia-se muitas vezes para cada cliente, conforme todas as métricas.
+The difficult point here was, as the company policy is complex, many of the parameters like policies, ratings, and metrics themselves were added
+on demand to the tables of the third party system, then studies and validations on the relationship were carried out.
+And when it was necessary to extract the information from the scores of each metric and this information was repeated many times for each client, according to all the metrics.
+
 
 
  ![image](https://github.com/Ygorkelevra93/Projects/assets/121832957/018dafa1-479a-4927-afe1-70e42f90ee61)
 
-A solução foi usar uma função de agregação "Min" e "Case" para onde cada vez que aquele 
-texto da métrica fosse encontrado, ele trouxesse o valor da pontuação e nomear isso como uma nova coluna.
+The solution was to use a "Min" and "Case" aggregation function so that each time that
+metric text was found, it would bring in the score value and name that as a new column.
 
 ![image](https://github.com/Ygorkelevra93/Projects/assets/121832957/825c9f30-d1e1-4b3c-8208-ffe314656b6a)
 
 
-A partir dali adicionamos algumas validações que o usuário também solicitou e uma coluna para colocarmos a data, assim poderá ser feito até uma análise evolutiva daquele comportamento.
-O resultado final é uma tabela onde o solicitante pode filtrar e comparar comportamento VS inadimplência, valor de limite concedido, valor de títulos pagos. 
+From there, we added some validations that the user also requested and a column to put the date, so that an evolutionary analysis of that behavior could even be carried out.
+The end result is a table where the requester can filter and compare behavior VS default, limit value granted, value of bonds paid.
+
 
 ![image](https://github.com/Ygorkelevra93/Projects/assets/121832957/a1978320-ce38-4f6e-a128-42647b81b450)
 
