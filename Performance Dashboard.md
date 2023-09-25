@@ -35,7 +35,8 @@ So it was necessary to establish a behavior, and the chosen one was lines where 
 the reason was because in the company's system (Fact-A) we had many more payment methods to classify, making it easier to use those on the platform
 (Fact-B), so that we can then total it.
 
-![image](https://github.com/Ygorkelevra93/Projects/assets/121832957/126bc0bc-3dcf-4d4b-aaaa-22ab875d446d)
+![image](https://github.com/Ygorkelevra93/Projects/assets/121832957/485a1fd1-aad4-462f-ac6c-9ee0465acba6)
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
