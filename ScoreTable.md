@@ -1,15 +1,15 @@
 # ScoreTable - SQL 
 
-Escopo do projeto:
+## Escopo do projeto:
 O sistema que a empresa utiliza para análise de crédito e aprovação de pedidos possui uma tela de diagnóstico para cada cliente com informações e pontuações.
 Ao todo mais de pontos de informação relevantes para o processo.
 O solicitante gostaria que fosse extraído do banco um relatório que trouxesse a informação no formato de tabela, já que o sistema original não tinha esse relatório em sua versão standard.
 
-Ferramentas utilizadas: 
-SQL Server + QLIKSENSE
+## Ferramentas utilizadas: 
+### SQL Server + QLIKSENSE
 
 
-Tela de diagnóstico com as informações solicitadas em formato de tabela:  (+3000 clientes)
+### Tela de diagnóstico com as informações solicitadas em formato de tabela:  (+3000 clientes)
 
 ![image](https://github.com/Ygorkelevra93/Projects/assets/121832957/e1da57f6-813c-4e95-a1d0-cf294f121294)
 
