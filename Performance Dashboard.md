@@ -1,15 +1,15 @@
 #QLIKSENSE - Dashboard
 
-Ferramenta utilizada: QLIKSENSE
+#Ferramenta utilizada: QLIKSENSE
 
-Escopo do projeto:
+#Escopo do projeto:
 A ideia do projeto era reunir informações de venda de uma unidade, vindos do sistema principal e informações de acompanhamento sobre projetos que circularam pela 
 plataforma web da empresa. Ambas bases bastante grandes e com muitas colunas, trazer isso de forma simples e objetiva para a área ter uma ideia de como está 
 desempenhando no período selecionado.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Construção:
+#Construção:
 Modelo utilizado foi o modelo estrela, com as informações de movimento ao centro de dimensões nas extremidades.
 
 ![image](https://github.com/Ygorkelevra93/Projects/assets/121832957/c36470de-e10f-4e86-9033-f7f7578a73c1)
@@ -17,7 +17,9 @@ Modelo utilizado foi o modelo estrela, com as informações de movimento ao cent
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Parte de script:
+
+#Parte de script:
+
 Os pontos de maiores complexidade deste projeto foram que na base de projetos as informações sobre a forma de pagamento estavam em colunas nesta base, 
 mas em linhas na base do sistema principal.
 
@@ -37,7 +39,7 @@ o motivo foi pois no sistema da empresa (Fato-A) tínhamos muito mais formas de 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Visualizações
+#Visualizações
 Definido um escopo com a àrea solicitante, onde foi passado quais eram as perguntas que eles queriam ver as respostas e também algumas informações que já 
 vinham construindo manualmente através de relatórios em Excel.
 
