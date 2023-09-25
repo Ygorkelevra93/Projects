@@ -41,7 +41,7 @@ The billing spreadsheet has 3 macros:
 
 ## Feature 2 - Dashboard
 
-The dashboard will bring together the main information to help manage portfolios.
+The dashboard will bring together the main information to help manage customers.
 It was built with information from the CRM, ACR databases and billing history brought from the billing routine above.
 As a point of greater complexity here we have the treatment of the ACR fact table, in addition to adding calculated aging columns,
 regions, supervisors of each client, a procedure was created here to store the bases, so that we can monitor
