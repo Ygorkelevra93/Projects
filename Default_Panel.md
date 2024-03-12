@@ -48,7 +48,8 @@ regions, supervisors of each client, a procedure was created here to store the b
 how the billing position was on any selected date.
 (Routines executed in different extractors in the area, which read this ACR and concatenate one under the other)
 
-![image](https://github.com/Ygorkelevra93/Projects/assets/121832957/4e1519c7-1294-49f7-9d9f-1a11acaa4f74)
+![image](https://github.com/Ygorkelevra93/Projects/assets/121832957/10ca484b-9684-49ab-8fde-73592444c36a)
+
 
 
 ### Dashboard:
